@@ -74,7 +74,7 @@ function loadTwitchData() {
 
     });
 }
-var ONLINE_CARD_TEMPLATE = '<a href="{url}" class="list-group-item list-group-item-action flex-column align-items-start online"> \
+var ONLINE_CARD_TEMPLATE = '<a href="{url}" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start online"> \
     <div class="d-flex w-100 justify-content-between"> \
         <img src="{logo}" width="50" height="50"> \
         <h5 class="mb-1">{displayName}</h5> \
@@ -83,7 +83,7 @@ var ONLINE_CARD_TEMPLATE = '<a href="{url}" class="list-group-item list-group-it
     <p class="mb-1">{description}</p> \
 </a>';
 
-var OFFLINE_CARD_TEMPLATE = '<a href="{url}" class="list-group-item list-group-item-action flex-column align-items-start offline"> \
+var OFFLINE_CARD_TEMPLATE = '<a href="{url}" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start offline"> \
     <div class="d-flex w-100 justify-content-between"> \
         <img src="{logo}" width="50" height="50"> \
         <h5 class="mb-1">{displayName}</h5> \
