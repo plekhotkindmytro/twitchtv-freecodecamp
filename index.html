@@ -18,13 +18,30 @@
     <div class="content">
         <div class="container">
             <div class="row">
-                <div class="col-8 offset-2">
+                <div class="col-12">
                     <h1 class="mt-5">Twitch TV FreeCodeCamp</h1>
+                    <div class="btn-group btn-group-lg" role="group" aria-label="Status filter">
+                        <button type="button" class="btn btn-outline-primary" id="all">All</button>
+                        <button type="button" class="btn btn-outline-primary" id="online">Online</button>
+                        <button type="button" class="btn btn-outline-primary" id="offline">Offline</button>
+                    </div>
+
+
                 </div>
             </div>
+
             <div class="row">
-                <div class="col-8 offset-2">
-                    <div id="result">
+                <div class="col-12">
+                    <section id="search">
+                        <label for="search-input"><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span></label>
+                        <input id="search-input" class="form-control form-control-sm" autocomplete="off" spellcheck="false" autocorrect="off" tabindex="1">
+                    </section>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="result" class="list-group">
                     </div>
                 </div>
             </div>

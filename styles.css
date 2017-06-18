@@ -4,12 +4,28 @@ body {
     height: 100%;
 }
 
+body {
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
 footer {
     background-color: #222;
     color: white;
     font-size: 0.8rem;
     padding: 2.5rem 0;
-    margin-top: 1rem;
+    margin-top: 3rem;
+}
+
+a {
+    color: #6441a4;
+}
+
+img {
+    border-radius: 50%;
 }
 
 .content {
@@ -20,6 +36,10 @@ footer {
     height: 100%;
 }
 
+.container {
+    width: 400px;
+}
+
 .card {
     margin-top: 1rem;
 }
@@ -27,4 +47,69 @@ footer {
 .emoji {
     width: 1em;
     height: 1em;
+}
+
+.fa-check {
+    color: #5cb85c;
+}
+
+.fa-exclamation {
+    color: #d9534f
+}
+
+.btn-group,
+.btn-group-lg>.btn,
+.btn-lg {
+    width: 100%;
+    border-radius: 0px;
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+    -webkit-box-shadow: 0 0 0 2px rgba(100, 65, 164, 0.5);
+    box-shadow: 0 0 0 2px rgba(100, 65, 164, 0.5);
+}
+
+.btn-outline-primary {
+    color: #6441a4;
+    background-image: none;
+    background-color: transparent;
+    border-color: #6441a4;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #6441a4;
+    border-color: #6441a4;
+}
+
+.btn-outline-primary:active,
+.btn-outline-primary.active {
+    color: #fff;
+    background-color: #6441a4;
+    border-color: #6441a4;
+}
+
+.filtered,
+.not-found {
+    display: none;
+}
+
+#search {
+    position: relative;
+    padding-top: 40px;
+    margin: -20px auto 20px;
+}
+
+#search label {
+    position: absolute;
+    left: 14px;
+    top: 43px;
+    color: #777;
+}
+
+#search #search-input {
+    padding-left: 33px;
+    padding-right: 33px;
+    border-radius: 23px;
 }
